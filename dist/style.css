@@ -1,0 +1,256 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 854px;
+    background-image: url('https://64.media.tumblr.com/981532db0cc6f13909979ff893e3dab7/tumblr_psj4brA2L21xqepp2o1_640.gifv');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
+}
+
+.molduraInformativo{
+  position: relative;
+  top: 85px;
+  left: 1px;
+  background-image: url("https://media.istockphoto.com/photos/stone-wall-texture-facing-stone-picture-id936645618");
+  width: right;
+  height: 160px;
+}
+.internoInformativo{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  background-color: #141434;
+  width: right;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;  
+  align-items: center;
+  font-family: Times New Roman, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+  
+}
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.base1{
+  position: absolute;
+  top:115px;
+  left: 9px;
+}
+.base2{
+  position: absolute;
+  top:115px;
+  right: 9px;
+}
+
+.imageJogador{
+  position: absolute;
+  top: 205px;
+  left: 50px;
+  width: 259px;
+  height: 259px;
+  z-index:
+}
+.imageMaquina{
+  position: absolute;
+  top: 205px;
+  right: 49px;
+  width: 259px;  
+  height: 259px;
+}
+.viradaJogador{
+  position: absolute;
+  top: 115px;
+  left: 9px;
+  width: 339px;
+  z-index: bottom;
+}
+.viradaMaquina{
+  position: absolute;  
+  top: 115px;
+  right: 9px;
+  width: 339px;
+}
+
+button {
+    padding: .8rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 180px;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    position: absolute;
+    top: 40px;
+    font-size: 25px;
+    text-align: left;
+    color: white;    
+}
+h5 {
+    position: absolute;
+    top: 27px;
+    right: 30px;
+    font-size: 25px;
+    text-align: right;
+    color: white;
+}
+
+h6{
+    position: absolute;
+    top: 82px;
+    left: 40px;
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
+
+h7{
+    position: absolute;
+    top: 140px;
+    right: 75px;
+    text-align: left;
+    width: 240px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;    
+}
+
+h8{
+  background-color: #fbdba6;
+  width: 30px;
+  font-size: 14px;
+  position: absolute;
+  top: 564px;
+  left: 220px;
+  font-weight: bold;
+}
+
+h9{
+  background-color: #fbdba6;
+  width: 30px;
+  font-size: 14px;
+  position: absolute;
+  top: 564px;
+  left: 288px;
+  font-weight: bold;
+}
+
+h10{
+  background-color: #fbdba6;
+  width: 30px;
+  font-size: 14px;
+  position: absolute;
+  top: 564px;
+  right: 109px;
+  font-weight: bold;
+}
+
+h11{
+  background-color: #fbdba6;
+  width:30px;
+  font-size: 14px;
+  position: absolute;
+  top: 564px;
+  right: 40px;
+  font-weight: bold;
+}
+
+h15{
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+}
+
+h18{
+  position: absolute;
+    top: 800px;
+    font-size: 25px;
+    left: 9px;
+    color: white;
+}
+h19{
+  position: absolute;
+    top: 800px;
+    right: 0px;
+    font-size: 25px;
+    text-align: left;
+    color: white;
+    width: 289px;
+}
+h22{
+    position: absolute;
+    top: 800px;
+    left: 1px;
+    right: 1px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    width: right;
+
+
+}
+
+#carta-jogador {
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+#carta-jogador h3 {
+    text-align: center;
+}
+
+.carta-imagem {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+}
+
+.carta-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.carta-status {
+    height: 160px;
+    margin: 1.5rem;
+}
+
+.carta-status input {
+    margin: 20px 10px;
+}
+
+.opcoes {
+    color: white;
+}
